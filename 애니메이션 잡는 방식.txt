@@ -1,0 +1,20 @@
+
+modelcom->get_animation(현재 애니메이션 인덱스)->get_timeacc() => 이걸 int 형으로 변환하면 현재 애니메이션의 키프레임이 나온다. 이것이 블렌더에 있는 키프레임이다.
+
+
+
+ex) 현재 애니메이션(1번 : curranimIndex)에서 다음 애니메이션(2 : nextanimIndex)으로 넘어갈때, 현재 애니메이션이 17프레임일때, 
+
+if((_uint)(m_pModelCom->Get_Animation(1)->get_timeAcc()) == 17)
+{
+	m_iNextAnimIndex = 2;
+}
+
+끝을 알고 싶다면 현재 애니메이션의 get_finish 함수를 불러주면 된다.
+
+update
+
+
+
+
+특정 애니메이션에서 충돌체를 생성하려면 bool변수를 하나 던져서 제어한다. 

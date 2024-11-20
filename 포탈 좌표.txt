@@ -1,0 +1,20 @@
+웨이 포인트 생성방식은 Tool에서 찍으면 해당 레벨에 관련 웨이포인트가 생기는것으로 한다.
+
+생성된 웨이포인트는 방향과 위치를 가지고 있다. 해당 위치에 일정 크기의 충돌체를 가진 웨이 포인트를 생성하면 
+
+
+포탈 위치
+GYK 		-141.27, -11.068, -16.93	GYK -> BASELPH 이동
+BASELPH 		43.37, -2.45, 0.02		BASELPH Enterance시작
+BASELPH 		-53.54, 12.55, -0.1		BASELPH Enterance끝
+BASELPH 		-56.75, 12.55, 0.23		BASELPH 시작
+BASELPH 		-86.12, 12.55, 0.03		BASELPH -> FIREAVATAR 이동
+FIREAVATAR	-95.22, -3.95, -0.11		FIREAVATAR 시작
+
+
+보스 위치
+BASELPH 		-84.9, 12.55, 0.09
+FIREAVATAR	23.28, -10, -0.13
+
+해당 위치에 오브젝트를 소환하고, 움직임에 따라 다른 좌표로 플레이어를 움직이면 된다.
+

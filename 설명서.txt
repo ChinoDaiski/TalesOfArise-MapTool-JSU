@@ -1,0 +1,4 @@
+Insert -> Map_Tutorial Start
+Home -> Map_Tutorial Fight
+Delete -> Map_Balseph Enterance
+End -> Map_Balseph Boss
